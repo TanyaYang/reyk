@@ -1,4 +1,4 @@
-/*-- 清楚样式 --*/
+/*-- 清除样式 --*/
 body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,table,td,img,div{margin:0;padding:0;border:0;} 
 body{background:#fff;color:#333;font-size:14px; margin-top:5px;font-family:"SimSun","宋体","Arial Narrow";}
 ul,ol{list-style-type:none;} 
@@ -58,7 +58,11 @@ header{
 
 /*room 开始*/
 .room-items{width: 300px;margin: 20px;}
-.room-items img{width: 100%;}
+.room-pic{width: 300px;height: 200px; 
+/*  margin:100px auto;*/
+  overflow:hidden;}
+.room-pic img{width: 100%; transition:all 0.5s; cursor:pointer;}/*图片过渡变化*/
+.room-pic img:hover {transform:scale(1.2);}/*鼠标移到图片放大1.2倍*/
 .room-con{width: 298px; height: 50px; border: 1px solid #ededed;}
 .room-name{width: 200px; height: 50px; line-height: 50px; padding-left:20px; border-right: 1px solid #ededed;}
 .room-price{width: 77px; height: 40px; text-align: center; padding-top: 10px;background-color: rgba(90, 186, 198, 0.05); color: #75c5cf;}
