@@ -99,7 +99,12 @@ footer{background-color: #A2A297;}
 
 
 
-
+/*room页 开始*/
+.room-lists{ margin-top:60px;margin-bottom: 60px;}
+.DoubleBedRoom,.StandardTwin,.Suite{border: 1px solid #ededed; padding: 20px;}
+.type{width: 20%;}
+.introduce-room{width: 80%;}
+.room-lists img{}
 
 
 
