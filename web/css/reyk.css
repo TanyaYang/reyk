@@ -1,6 +1,6 @@
 /*-- 清除样式 --*/
 body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,table,td,img,div{margin:0;padding:0;border:0;} 
-body{background:#fff;color:#333;font-size:14px; margin-top:5px;font-family:"SimSun","宋体","Arial Narrow";}
+body{background:#fff;color:#333;font-size:14px; margin-top:5px;font-family:KaiTi;/*"SimSun","宋体","Arial Narrow";*/}
 ul,ol{list-style-type:none;} 
 select,input,img,select{vertical-align:middle;} 
 a{text-decoration:none;} 
@@ -24,8 +24,8 @@ a:hover,a:active,a:focus{color:#c00;text-decoration:underline;}
 /*-- header 开始 --*/
 header{
 	height: 64px;
-  font-family: "Open Sans";
-  font-size: 14px;
+  /*font-family: "Open Sans";*/
+  font-size: 20px;
   border-bottom: 1px solid #ededed;
 }
 .nav-con{
@@ -106,7 +106,8 @@ footer{background-color: #A2A297;}
 .introduce-room{width: 80%;}
 .introduce-room img{width: 300px; height: 200px;} 
 
-
-
-
-
+.plaque{position: relative;}
+.plaque-list{height: 200px;}
+.plaque-con{top:20%;left:15%;width:8%;font-family:KaiTi;font-size:20px;font-weight:normal;line-height:1.5;text-align:center; position: relative;}
+.plaque-quan{position: absolute;top:20px;}
+/*img.plaque-quan{width: 32px; position: absolute;left:20%;top:-15%;}*/
