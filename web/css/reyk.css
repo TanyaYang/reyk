@@ -1,5 +1,5 @@
 /*-- 清除样式 --*/
-body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,table,td,img,div{margin:0;padding:0;border:0;} 
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,table,td,img,div{margin:0;padding:0;border:0;font-family:KaiTi;} 
 body{background:#fff;color:#333;font-size:14px; margin-top:5px;font-family:KaiTi;/*"SimSun","宋体","Arial Narrow";*/}
 ul,ol{list-style-type:none;} 
 select,input,img,select{vertical-align:middle;} 
@@ -20,6 +20,7 @@ a:hover,a:active,a:focus{color:#c00;text-decoration:underline;}
    visibility:hidden;/*让生成的内容不可见*/
  }
 .clearfix{zoom:1;/*为IE6，7的兼容性设置*/}
+img{width: 100%}
 
 /*-- header 开始 --*/
 header{
@@ -47,7 +48,7 @@ header{
   background-position: center;
   background-size: cover;
 }
-.swiper-slide img{width: 100%}
+/*.swiper-slide img{width: 100%}*/
 .ad-r{width: 33%;}
 .ad-r ul li{font-size: 14px;line-height: 100px;border-bottom: 1px solid #ededed;}
 /*ad 结束*/
@@ -61,7 +62,7 @@ header{
 .room-pic{width: 300px;height: 200px; 
 /*  margin:100px auto;*/
   overflow:hidden;}
-.room-pic img{width: 100%; transition:all 0.5s; cursor:pointer;}/*图片过渡变化*/
+.room-pic img{transition:all 0.5s; cursor:pointer;}/*图片过渡变化*/
 .room-pic img:hover {transform:scale(1.2);}/*鼠标移到图片放大1.2倍*/
 .room-con{width: 298px; height: 50px; border: 1px solid #ededed;}
 .room-name{width: 200px; height: 50px; line-height: 50px; padding-left:20px; border-right: 1px solid #ededed;}
@@ -100,14 +101,15 @@ footer{background-color: #A2A297;}
 
 
 /*room页 开始*/
-.room-lists{ margin-top:60px;margin-bottom: 60px;}
-.DoubleBedRoom,.StandardTwin,.Suite{border: 1px solid #ededed;/* padding: 20px;*/}
-.type{width: 20%;}
-.introduce-room{width: 80%;}
-.introduce-room img{width: 300px; height: 200px;} 
+/*.DoubleBedRoom,.StandardTwin,.Suite{border: 1px solid #ededed; padding: 20px;}
+*/
 
 .plaque{position: relative;}
 .plaque-list{height: 200px;}
-.plaque-con{top:20%;left:15%;width:8%;font-family:KaiTi;font-size:20px;font-weight:normal;line-height:1.5;text-align:center; position: relative;}
-.plaque-quan{position: absolute;top:20px;}
-/*img.plaque-quan{width: 32px; position: absolute;left:20%;top:-15%;}*/
+.plaque-con{padding-left: 1%; margin:auto 3%;  font-family:KaiTi;font-size:20px;font-weight:normal;line-height:1.5;text-align:center; position: relative; top:20%;left:15%; background:url(../img/quan.png) no-repeat 2px -6px;}
+.plaque-con p{margin-top:10px; }
+.room-info-a .line,.room-info-b .line{width: 18%; margin-bottom:0;}
+.room-info-l img{width: 147px; height: 224px; margin-top:35%; display: block;}
+.room-info-c{width: 25%; margin: 9% 5% 0 5%}
+.room-info-r{width: 50%;}
+.room-info-b .line{margin-left: 82%;}
