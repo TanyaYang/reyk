@@ -8,6 +8,7 @@ a:link{color:#000;}
 a:visited{color:#000;} 
 a:hover,a:active,a:focus{color:#c00;text-decoration:underline;} 
 
+
 /*-- 通用格式 --*/
 .fl{float: left;}
 .fr{float: right;}
@@ -22,55 +23,46 @@ a:hover,a:active,a:focus{color:#c00;text-decoration:underline;}
 .clearfix{zoom:1;/*为IE6，7的兼容性设置*/}
 img{width: 100%}
 
+
+/*------------------- index 开始 -------------------*/ 
 /*-- header 开始 --*/
-header{
-	height: 64px;
-  /*font-family: "Open Sans";*/
-  font-size: 20px;
-  border-bottom: 1px solid #ededed;
-}
-.nav-con{
-	height: 64px;
-	line-height: 64px;
-}
-.nav-logo{width: 230px;border-right: 1px solid #ededed;}
-.logo{height: 64px;}
+header{height: 65px;font-size: 20px;border-bottom: 1px solid #ededed;}
+.nav-con{height: 65px;line-height: 65px;}
+.nav-logo{padding-left: 6%; padding-right: 1%; text-align: right; border-right: 1px solid #ededed; background: url(../img/logo64.jpg) 20px 0 no-repeat;}
+.logo{height: 64px;width: 64px;}
+.nav-menu{width: 80%;}
 .nav-menu li{float: left;}
-.nav-menu li a{display: inline-block;padding:0 40px;}
-.nav-menu li a.nav-home{color: }
+.nav-menu li a{display: inline-block;padding-left:50px;}
+.nav-tel{height: 65px; width: 160px; }
+.nav-tel p{margin-top: 6px; font-size: 14px; line-height: 22px; text-align: right;}
+.nav-tel p.phone{background: url(../img/icon-phone.png) 0px 0 no-repeat;}
+.nav-tel p.tel{background: url(../img/icon-tel.png) 3px 3px no-repeat;}
 /*-- header 结束 --*/
 
 /*-- content 开始 --*/
-/*ad 开始*/
+/*ad 部分*/
 .ad{margin-top: 30px; margin-bottom: 20px;}
 .ad-l{width: 65%;}
-.swiper-slide {
-  background-position: center;
-  background-size: cover;
-}
+.swiper-slide {background-position: center;background-size: cover;}
 /*.swiper-slide img{width: 100%}*/
 .ad-r{width: 33%;}
 .ad-r ul li{font-size: 14px;line-height: 100px;border-bottom: 1px solid #ededed;}
-/*ad 结束*/
 
 /*line 部分*/
 .line{height: 13px; margin-top: 80px; margin-bottom: 70px; border-bottom: 2px solid #ededed; position: relative; }
 .line h3{font-size: 24px; text-align: center; margin:0 auto; padding: 0 30px;background-color: #fff; position: absolute; left: 42%; top: -2px;}
 
-/*room 开始*/
+/*room 部分*/
 .room-items{width: 300px;margin: 20px;}
-.room-pic{width: 300px;height: 200px; 
-/*  margin:100px auto;*/
-  overflow:hidden;}
+.room-pic{width: 300px;height: 200px; overflow:hidden;}
 .room-pic img{transition:all 0.5s; cursor:pointer;}/*图片过渡变化*/
 .room-pic img:hover {transform:scale(1.2);}/*鼠标移到图片放大1.2倍*/
 .room-con{width: 298px; height: 50px; border: 1px solid #ededed;}
 .room-name{width: 200px; height: 50px; line-height: 50px; padding-left:20px; border-right: 1px solid #ededed;}
 .room-price{width: 77px; height: 40px; text-align: center; padding-top: 10px;background-color: rgba(90, 186, 198, 0.05); color: #75c5cf;}
 .room-price span{display: block; color: #979797; font-size: 10px;}
-/*room 结束*/
 
-/*service 开始*/
+/*service 部分*/
 .service-con{width: 23%; text-align: center; margin-right: 2%}
 .service-con .circle {
     width: 80px;
@@ -81,18 +73,18 @@ header{
 }
 .service-con h3{margin: 20px 0 10px 0;}
 .service-con p{}
-/*service 结束*/
 
-/*food 开始*/
+/*food 部分*/
 .food{margin-bottom: 70px;}
-/*food 结束*/
+
 /*-- content 结束 --*/
 
 /*-- footer 开始 --*/
 footer{background-color: #A2A297;}
 .content{padding: 40px 0;}
 .content h3{height: 20px; border-right: 2px solid #FDEECB; margin-bottom: 16px; padding-right: 10px;}
-.content img{height: 120px;}
+.logoreyk img{height: 120px; width: 194px;}
+.weixin img{height: 120px; width: 120px;}
 .weixin img{margin-right: -58px;}
 .weixin, .where,.teline{width: 26%; text-align: right;}
 .where p,.teline p{height: 30px;}
@@ -100,13 +92,13 @@ footer{background-color: #A2A297;}
 
 
 
-/*room页 开始*/
+/*------------------- room 开始 -------------------*/ 
 /*.DoubleBedRoom,.StandardTwin,.Suite{border: 1px solid #ededed; padding: 20px;}
 */
 
 .plaque{position: relative;}
 .plaque-list{height: 200px;}
-.plaque-con{padding-left: 1%; margin:auto 3%;  font-family:KaiTi;font-size:20px;font-weight:normal;line-height:1.5;text-align:center; position: relative; top:20%;left:15%; background:url(../img/quan.png) no-repeat 2px -6px;}
+.plaque-con{padding-left: 1%; margin:auto 4%;  font-family:KaiTi;font-size:20px;font-weight:normal;line-height:1.5;text-align:center; position: relative; top:20%; background:url(../img/quan.png) no-repeat -4px -6px;}
 .plaque-con p{margin-top:10px; }
 .room-info-a .line,.room-info-b .line{width: 18%; margin-bottom:0;}
 .room-info-l img{width: 147px; height: 224px; margin-top:35%; display: block;}
