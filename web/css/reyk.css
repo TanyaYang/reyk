@@ -105,3 +105,12 @@ footer{background-color: #A2A297;}
 .room-info-c{width: 25%; margin: 9% 5% 0 5%}
 .room-info-r{width: 50%;}
 .room-info-b .line{margin-left: 82%;}
+
+
+.article-img{width: 25%;margin:0 25px 25px 0;}
+.article-img img{width: 240px;height: 145px;}
+.article{margin: 25px;}
+h2.article-title{margin-bottom: 25px;}
+p.article-text {margin-bottom: 25px;color: #686868;}
+p.article-date{color: #aaa;text-align: right;}
+/*.article-list hr{margin: 0}*/
