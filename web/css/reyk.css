@@ -107,10 +107,10 @@ footer{background-color: #A2A297;}
 .room-info-b .line{margin-left: 82%;}
 
 
+.article{margin: 25px; width: 100%;}
 .article-img{width: 25%;margin:0 25px 25px 0;}
 .article-img img{width: 240px;height: 145px;}
-.article{margin: 25px;}
+.article-con{width: 72%;height: 145px;border-bottom: 2px solid #ededed;}
 h2.article-title{margin-bottom: 25px;}
 p.article-text {margin-bottom: 25px;color: #686868;}
-p.article-date{color: #aaa;text-align: right;}
-/*.article-list hr{margin: 0}*/
+p.article-date{color: #686868;text-align: right;}
